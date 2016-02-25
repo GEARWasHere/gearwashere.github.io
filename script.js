@@ -1,7 +1,10 @@
-$('.logo2')
-  .css('opacity', 0)
-  .slideDown(14000)
-  .animate(
-    { opacity: 1 },
-    { queue: false, duration: 'slow' }
-  );
+$(document).ready(function() {
+  $(".central").hide();
+  $(".central").fadeIn(1000);
+  $(".central").mouseenter(function() {
+    $(".central").fadeTo("fast", 1);
+  });
+  $(".central").mouseleave(function() {
+    $(".central").fadeTo("fast", 0.5);
+  });
+});

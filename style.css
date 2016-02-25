@@ -1,78 +1,70 @@
-.nav {
-  background-color: #151515;
-  border: none;
-  height: 50px;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  box-shadow: 0px 10px 15px #151515;
-}
-.nav h3 {
-  margin-top: 10px;
-}
-.header {
-  height: 250px;
-  background-color: #6a1338;
-  background-image: url('images/header.png');
+body {
+  background-image: url('images/bg.png');
   background-size: cover;
+}
+.nav, .social {
+  min-height: 50px;
+  height: 50px;
+  padding: 0 auto;
   display: flex;
+  flex-flow: row;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 10px 15px #151515;
 }
-.main {
-  max-width: 700px;
-}
-
-/* Stand out! */
-
-w {
-  color: #ffffff;
-}
-.logo {
-  background-image: url('images/GEARIcon.png');
-  min-width: 50px;
-  min-height: 50px;
-  background-repeat: no-repeat;
-  margin-top: 10px;
-  margin-right: -20px;
-  margin-left: 10px;
-}
-.logo2 {
-  background-image: url('images/logo.png');
-  width: 200px;
-  height: 200px;
+.social {
+  bottom: 0;
 }
 p, a {
-  color: #6a1338;
-  font-family: 'Ropa Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.15em;
-}
-a {
-  transition: 0.3s;
-  text-decoration: underline;
-}
-a:visited {
-  text-decoration: none;
-}
-.main {
-  color: #6a1338;
-  font-family: 'Droid Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Teko', sans-serif;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
-a:hover {
+p {
   color: #ffffff;
 }
-h3 {
-  color: #6a1338;
-  font-family: 'Ropa Sans', sans-serif;
-  font-weight: 400;
-  font-size: 2em;
+a {
+  color: #eeeeee;
+  text-decoration: underline;
 }
-body {
-  background-color: #111111;
-  background-image: url('images/bg.png');
+.dim {
+  opacity: 0.1;
+}
+.nav ul, .social ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+.nav li, .social li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.navinner, .socialinner {
+  /* HACK:  */
+}
+.central {
+  min-height: 200px;
+  height: 200px;
+  display: none;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+@media screen and (device-width: 400) {
+  .central, .centralinner {
+    display: none;
+  }
+}
+.central img {
+  filter: drop-shadow(10px 10px 10px #ffffff);
+  opacity: 1;
+  transition: 1;
+}
+.centralinner {
+  /* HACK:  */
+  display: block;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
 }
