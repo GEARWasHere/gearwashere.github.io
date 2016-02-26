@@ -36,35 +36,18 @@ a {
 .nav li, .social li {
   list-style-type: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 .navinner, .socialinner {
   /* HACK:  */
 }
 .central {
   min-height: 200px;
-  height: 200px;
+  height: auto;
+  margin: 0 auto;
   display: none;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row;
-}
-@media screen and (device-width: 400) {
-  .central, .centralinner {
-    display: none;
-  }
-}
-.central img {
-  filter: drop-shadow(10px 10px 10px #ffffff);
-  opacity: 1;
-  transition: 1;
-}
-.centralinner {
-  /* HACK:  */
-  display: block;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
+  background-image: url('images/central.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
