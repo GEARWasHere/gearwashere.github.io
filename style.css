@@ -25,9 +25,11 @@ p, a {
 h1 {
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .box {
   max-width: 600px;
+  margin: 0 auto;
 }
 p {
   color: #ffffff;
