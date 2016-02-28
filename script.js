@@ -8,3 +8,9 @@ $(document).ready(function() {
     $(".central").fadeTo("fast", 0.5);
   });
 });
+
+$(document).ready(function() {
+  $(".navicon").click(function(){
+       $(".mobilenav").slideToggle(450);
+  });
+});
