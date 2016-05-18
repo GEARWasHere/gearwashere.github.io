@@ -1,0 +1,57 @@
+body {
+  background-image: url('img/bg.png');
+  background-repeat: repeat;
+  }
+  .centered {
+  margin: 0 auto;
+  display: block;
+}
+.bio {
+  border: 5px;
+  border-color: #FFFFFF;
+  box-shadow: 0px 0px 10px #151515;
+}
+.jtmain {
+  background-image: url('img/bg3.png');
+  resize: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.skill {
+  margin: 0 auto;
+}
+.btn {
+  margin: 0 auto;
+}
+.section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+x {
+  color: #0080ff;
+}
+.container-fluid {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.navigation {
+  background-color: #cccccc;
+  min-height: 30px;
+  min-width: 100%;
+  margin-top: -30px;
+  padding-top: -30px;
+  display: none;
+}
+p, h1, h2, h3, a, i, li, button {
+  font-family: 'Oxygen', sans-serif;
+}
+h1, h2, h3 {
+  color: #0080ff;
+}
+a {
+  text-decoration: underline;
+}
+.summary, .skillset, .education, .work, .references{
+  display: none;
+}
