@@ -1,5 +1,6 @@
 .wrapper {
   max-width: 980px;
+  text-shadow: 3px 3px #071115;
 }
 
 .jumbotron {
@@ -7,9 +8,14 @@
   background-image: url('img/header.png');
 }
 
+.shady {
+  text-shadow: 3px 3px #071115;
+}
+
 .zeroauto {
   margin: 0 auto;
   display: block;
+  max-width: 100%;
 }
 
 br {
