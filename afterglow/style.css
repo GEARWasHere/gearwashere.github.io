@@ -2,36 +2,29 @@
   max-width: 980px;
   text-shadow: 3px 3px #071115;
 }
-
-.jumbotron, footer {
-  background-color: #111111;
-  background-image: url('img/header2.png');
-}
-
-.shady {
-  text-shadow: 3px 3px #071115;
-}
-
 .zeroauto {
   margin: 0 auto;
   display: block;
   max-width: 100%;
 }
-
+.jumbotron, footer {
+  background-color: #111111;
+  background-image: url('img/header2.png');
+}
+.shady {
+  text-shadow: 3px 3px #071115;
+}
 br {
   line-height: 150%;
 }
-
 body {
   background-color: #151515;
   background-image: url('img/bg.png');
 }
-
 h1, .jumbotron h1 {
   color: #da3b8a;
   font-family: 'Montserrat', sans-serif;
 }
-
 p, .jumbotron p {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
