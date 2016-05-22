@@ -3,9 +3,9 @@
   text-shadow: 3px 3px #071115;
 }
 
-.jumbotron {
+.jumbotron, footer {
   background-color: #111111;
-  background-image: url('img/header.png');
+  background-image: url('img/header2.png');
 }
 
 .shady {
