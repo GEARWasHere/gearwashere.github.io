@@ -1,4 +1,11 @@
-$(document).ready(function() {
-  $(".main").fadeIn(500);
-  $(".social").delay(500).fadeIn(500);
-})
+$(document).ready(function(){
+  $(".navicon").delay(500).fadeIn(500);
+  $(".main").delay(1000).fadeIn(500);
+  $(".social").delay(1500).fadeIn(500);
+  $(".navicon").click(function(){
+    $(".navigation").fadeIn(100);
+  });
+  $(".close").click(function(){
+    $(".navigation").fadeOut(100);
+  });
+});

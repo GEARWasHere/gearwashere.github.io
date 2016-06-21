@@ -6,9 +6,17 @@ i {
   color: #eeeeee;
 }
 
-p, h1, h2, h3, h4 {
+p, h1, h2, h3, h4, li, ul {
   color: #eeeeee;
   font-family: 'Oxygen', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #eeeeee;
 }
 
 .weak {
@@ -32,4 +40,28 @@ p, h1, h2, h3, h4 {
   margin: 0 auto;
   display: inline;
   padding: 10px;
+}
+
+.navicon {
+  float: right;
+  padding-top: 20px;
+  display: none;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  background-color: #111111;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: none;
+}
+
+.close {
+  padding-top: 20px;
+}
+
+.nav {
+  margin: 0 auto;
 }
