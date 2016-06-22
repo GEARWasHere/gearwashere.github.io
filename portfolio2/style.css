@@ -76,29 +76,13 @@ li:hover, li:visited, ul:hover, ul:visited {
   max-width: 320px;
 }
 
-.gear {
-  z-index: -1;
-  background-image: url('img/gear.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  opacity: 0.05;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  -webkit-animation: spin 0.7s infinite linear;
-  -moz-animation: spin 0.7s infinite linear;
-  -o-animation: spin 0.7s infinite linear;
-  -ms-animation: spin 0.7s infinite linear;
+.background {
+  display: flex;
+  align-items: center;
 }
 
-.gears {
-    position: absolute;
+.gear {
     overflow: hidden;
-    left: 30%;
-    text-align: center;
     opacity: 0.03;
     margin: 0 auto;
     z-index: -1;
