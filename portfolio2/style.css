@@ -1,5 +1,6 @@
 body {
   background-color: #1e1e1e;
+  overflow-x: hidden;
 }
 
 i {
@@ -74,3 +75,37 @@ li:hover, li:visited, ul:hover, ul:visited {
   text-align: center;
   max-width: 320px;
 }
+
+.gear {
+  z-index: -1;
+  background-image: url('img/gear.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  opacity: 0.05;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: spin 0.7s infinite linear;
+  -moz-animation: spin 0.7s infinite linear;
+  -o-animation: spin 0.7s infinite linear;
+  -ms-animation: spin 0.7s infinite linear;
+}
+
+.gears {
+    position: absolute;
+    overflow: hidden;
+    left: 30%;
+    text-align: center;
+    opacity: 0.03;
+    margin: 0 auto;
+    z-index: -1;
+    -webkit-animation:spin 10s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
