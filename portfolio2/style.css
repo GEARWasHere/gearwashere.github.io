@@ -79,10 +79,13 @@ li:hover, li:visited, ul:hover, ul:visited {
 .background {
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .gear {
+    display: none;
     overflow: hidden;
+    max-width: 100%;
     opacity: 0.03;
     margin: 0 auto;
     z-index: -1;
