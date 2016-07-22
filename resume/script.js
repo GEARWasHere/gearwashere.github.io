@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".education").append(smartly, udacityFrontEnd, ai, tcc, ptk);
+  $(".education").append(mva, udacityFrontEnd, ai, tcc, ptk);
   $(".work").append(geeksquad, bbops, bbcomp, bbap, hideaway, changs, cheddars);
   $(".references").append(amy, jt, rob, joe, andy);
   $(".summary").delay(100).fadeIn(700);
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 //education
 
-var smartly = "<h2>Smartly<\/h2><br><p><i>Masters of Business Administration<\/i><br>Data Science<br>2016 - Current<br><\/p>";
+var mva = "<h2>Microsoft Virtual Academy<\/h2><br><p><i>Microsoft Professional Degree<\/i><br>Data Science<br>2016 - Current<br><\/p>";
 
 var udacityFrontEnd = "<h2>Udacity<\/h2><br><p><i>Nanodegree<\/i><br>Front-End Development<br>2015 - Current<br><\/p>";
 
