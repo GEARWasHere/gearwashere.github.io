@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".education").append(uop, smartly ai, tcc, ptk);
+  $(".education").append(uop, smartly, ai, tcc, ptk);
   $(".work").append(geeksquad, bbops, bbcomp, bbap, hideaway, changs, cheddars);
   $(".references").append(amy, jt, rob, joe, andy);
   $(".summary").delay(100).fadeIn(700);
