@@ -19,7 +19,7 @@ var ai = "<h2>The Art Institute of Austin<\/h2><br><p><i>Bachelors of Fine Arts<
 
 var tcc = "<h2>Tulsa Community College<\/h2><br><p><i>Bachelors of Fine Arts<\/i><br>Graphic Design<br>2010 - 2011<br><\/p>";
 
-var ptk = "<h2>Phi Theta Kappa<\/h2><br><p><i>Honor Society<\/i><br>Academic Achievements<br>2010 - Current<br><\/p>"
+var ptk = "<h2>Phi Theta Kappa<\/h2><br><p><i>Honor Society<\/i><br>Academic Achievements<br>2010 - Current<br><\/p>";
 
 //work
 
