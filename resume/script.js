@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".education").append(mva, udacityFrontEnd, ai, tcc, ptk);
+  $(".education").append(uop, smartly ai, tcc, ptk);
   $(".work").append(geeksquad, bbops, bbcomp, bbap, hideaway, changs, cheddars);
   $(".references").append(amy, jt, rob, joe, andy);
   $(".summary").delay(100).fadeIn(700);
@@ -11,11 +11,11 @@ $(document).ready(function() {
 
 //education
 
-var mva = "<h2>Microsoft Virtual Academy<\/h2><br><p><i>Microsoft Professional Degree<\/i><br>Data Science<br>2016 - Current<br><\/p>";
+var uop = "<h2>University of the People<\/h2><br><p><i>Bachelors of Science<\/i><br>Computer Science<br>2017 - Current<br><\/p>";
 
-var udacityFrontEnd = "<h2>Udacity<\/h2><br><p><i>Nanodegree<\/i><br>Front-End Development<br>2015 - Current<br><\/p>";
+var smartly = "<h2>Smartly<\/h2><br><p><i>Certification<\/i><br>Data Science Focus<br>2016 - Current<br><\/p>";
 
-var ai = "<h2>The Art Institute of Austin<\/h2><br><p><i>Bachelors of Fine Arts<\/i><br>Graphic Design<br>2011 - Current<br><\/p>";
+var ai = "<h2>The Art Institute of Austin<\/h2><br><p><i>Bachelors of Fine Arts<\/i><br>Graphic Design<br>2011 - 2013<br><\/p>";
 
 var tcc = "<h2>Tulsa Community College<\/h2><br><p><i>Bachelors of Fine Arts<\/i><br>Graphic Design<br>2010 - 2011<br><\/p>";
 
