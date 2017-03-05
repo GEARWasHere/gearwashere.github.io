@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".education").append(uop, smartly, ai, tcc, ptk);
-  $(".work").append(geeksquad, bbops, bbcomp, bbap, hideaway, changs, cheddars);
+  $(".work").append(geeksquad2, geeksquad, bbops, bbcomp, bbap, hideaway, changs, cheddars);
   $(".references").append(amy, jt, rob, joe, andy);
   $(".summary").delay(100).fadeIn(700);
   $(".skillset").delay(300).fadeIn(700);
@@ -23,7 +23,9 @@ var ptk = "<h2>Phi Theta Kappa<\/h2><br><p><i>Honor Society<\/i><br>Academic Ach
 
 //work
 
-var geeksquad = "<h2>Geek Squad<\/h2><br><p><i>Consultation\/Ops Agent<\/i><br>2016 - Current<br>Responsible for inbound and outbound shipments of client units, initiating preservation of client data, and consulting with clients to reach solutions on restoring the client's unit and data.<\/p>";
+var geeksquad2 = "<h2>Geek Squad<\/h2><br><p><i>Advanced Repair Agent<\/i><br>2017 - Current<br>Responsible for in-depth hardware and software repairs of client and business units, monitoring and increasing the productivity of the precinct\'s operations, and advising and training consultation agents.<\/p>";
+
+var geeksquad = "<h2>Geek Squad<\/h2><br><p><i>Consultation\/Ops Agent<\/i><br>2016 - 2017<br>Responsible for inbound and outbound shipments of client units, initiating preservation of client data, and consulting with clients to reach solutions on restoring the client's unit and data.<\/p>";
 
 var bbops = "<h2>Best Buy<\/h2><br><p><i>Ops Inventory Specialist\/Merchandising Associate<\/i><br>2014 - Current<br>Responsible for inbound and outbound shipments of business and customer products, processing and fulfilling B2C and B2B orders, sorting inbound shipments of products, modifying weekly pricing, and setting up functional displays of new features and products.<\/p>";
 
