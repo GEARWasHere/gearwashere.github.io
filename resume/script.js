@@ -25,13 +25,13 @@ var ptk = "<h2>Phi Theta Kappa<\/h2><br><p><i>Honor Society<\/i><br>Academic Ach
 
 var geeksquad2 = "<h2>Geek Squad<\/h2><br><p><i>Advanced Repair Agent<\/i><br>2017 - Current<br>Responsible for in-depth hardware and software repairs of client and business units, monitoring and increasing the productivity of the precinct\'s operations, and advising and training consultation agents.<\/p>";
 
-var geeksquad = "<h2>Geek Squad<\/h2><br><p><i>Consultation\/Ops Agent<\/i><br>2016 - 2017<br>Responsible for inbound and outbound shipments of client units, initiating preservation of client data, and consulting with clients to reach solutions on restoring the client's unit and data.<\/p>";
+var geeksquad = "<p><i>Consultation\/Ops Agent<\/i><br>2016 - 2017<br>Responsible for inbound and outbound shipments of client units, initiating preservation of client data, and consulting with clients to reach solutions on restoring the client's unit and data.<\/p>";
 
 var bbops = "<h2>Best Buy<\/h2><br><p><i>Ops Inventory Specialist\/Merchandising Associate<\/i><br>2014 - Current<br>Responsible for inbound and outbound shipments of business and customer products, processing and fulfilling B2C and B2B orders, sorting inbound shipments of products, modifying weekly pricing, and setting up functional displays of new features and products.<\/p>";
 
-var bbcomp = "<h2>Best Buy<\/h2><br><p><i>Computing Sales Associate<\/i><br>2014 - 2015<br>Responsible for finding personal computing solutions for clients and businesses.<\/p>";
+var bbcomp = "<p><i>Computing Sales Associate<\/i><br>2014 - 2015<br>Responsible for finding personal computing solutions for clients and businesses.<\/p>";
 
-var bbap = "<h2>Best Buy<\/h2><br><p><i>Asset Protection Specialist<\/i><br>2014 - 2015<br>Responsible for communicating and gaining intelligence to prevent company loss and theft and maintain business security.<\/p>";
+var bbap = "<p><i>Asset Protection Specialist<\/i><br>2014 - 2015<br>Responsible for communicating and gaining intelligence to prevent company loss and theft and maintain business security.<\/p>";
 
 var hideaway = "<h2>Hideaway<\/h2><br><p><i>Line Cook\/Server<\/i><br>2013 - 2014<br>Responsible for running one half of a full kitchen, creating Italian-inspired American cuisine ranging from appetizers to entrees to desserts. On occasion, serve guests and perform various cleaning duties.<\/p>";
 
