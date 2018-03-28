@@ -27,7 +27,7 @@ start uninstaller.exe
 
 :: For var e:
 
-cd /d d:\
+cd /d e:\
 
 start MRI.exe
 
@@ -39,7 +39,7 @@ start uninstaller.exe
 
 :: For var f:
 
-cd /d d:\
+cd /d f:\
 
 start MRI.exe
 
