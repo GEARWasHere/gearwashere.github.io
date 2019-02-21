@@ -1,0 +1,140 @@
+* {
+  max-width: 100%;
+}
+
+body {
+  background-color: #000000;
+}
+
+iframe {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+#container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+#wrapper {
+  align-self: center;
+}
+
+#bggradient {
+  width: 100vw;
+
+  height: 100vh;
+
+  z-index: -99;
+
+  position: absolute;
+
+  background-size: 100%;
+
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#blurbg {
+  background-image: url("http://gearwashere.com/img/SmartSelect_20190210-161554_Drive.jpg");
+
+  width: 100vw;
+
+  height: 100vh;
+
+  z-index: -100;
+
+  position: absolute;
+
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+
+  filter: blur(5px);
+
+  opacity: 0.2;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Barlow", sans-serif;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 12em;
+
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2em;
+
+  font-weight: 400;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+
+  font-weight: 400;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+.social {
+  margin: 0 20px 0 0;
+}
+
+i {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  padding-right: 25px;
+}
+
+.row2 {
+  padding-left: 50px;
+}
+
+.button {
+  background-color: #1f1f1f;
+
+  border-radius: 10px;
+}
